@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FollowPet</string>
+    <!-- Toolbar -->
+    <string name="tb_cadastro_pet">Cadastro de Pets</string>
+    <string name="tb_cadastro_vacina">Cadastro de Vacinas</string>
+    <string name="tb_cadastro_medicamento">Cadastro de Medicamentos</string>
+    <string name="tb_atualizar_pet">Atualizar Pets</string>
+    <string name="tb_atualizar_vacina">Atualizar Vacinas</string>
+    <string name="tb_atualizar_medicamento">Atualizar Medicamentos</string>
+
+    <string name="action_cadastro_pet">Cadastramento de Pets</string>
+    <string name="action_salva">Salva</string>
+    <!-- -->
+
 </resources>

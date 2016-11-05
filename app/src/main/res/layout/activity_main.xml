@@ -19,5 +19,17 @@
         android:minHeight="?attr/actionBarSize"
         android:layout_alignParentLeft="true"
         android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AlertDialog.AppCompat.Light" />
+        app:popupTheme="@style/AlertDialog.AppCompat.Light">
+
+        <!--<TextView
+            android:text="FollowPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:paddingLeft="72dp"
+            android:textSize="21sp" />-->
+
+    </android.support.v7.widget.Toolbar>
+
+
 </LinearLayout>

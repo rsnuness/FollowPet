@@ -18,7 +18,8 @@
         android:minHeight="?attr/actionBarSize"
         android:layout_alignParentLeft="true"
         android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AlertDialog.AppCompat.Light" />
+        app:popupTheme="@style/AlertDialog.AppCompat.Light"
+        tools:ignore="ObsoleteLayoutParam" />
 
     <LinearLayout
         android:orientation="vertical"

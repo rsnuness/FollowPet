@@ -58,23 +58,23 @@
                 </LinearLayout>
 
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPersonName"
-                    android:layout_marginTop="20dp"
-                    android:hint="Nome"
-                    android:singleLine="true"
-                    android:ems="10"
-                    android:id="@+id/et_nome"
-                    android:textColor="@color/primaryText"
-                    android:layout_weight="1"
-                    android:textColorHint="@color/dividerColor" />
-
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="20dp"
+                        android:hint="Nome"
+                        android:singleLine="true"
+                        android:ems="10"
+                        android:id="@+id/et_nome"
+                        android:textColor="@color/primaryText"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/dividerColor" />
 
                     <TextView
                             android:text="Data de Nascimento"

@@ -10,6 +10,7 @@
 
     <string name="action_cadastro_pet">Cadastramento de Pets</string>
     <string name="action_salva">Salva</string>
+    <string name="data_da_primeria_dose">Data da Primeria Dose</string>
     <!-- -->
 
 </resources>

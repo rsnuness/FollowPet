@@ -48,14 +48,13 @@
                         android:layout_weight="1"
                         />
 
-                    <ImageButton
+                    <Button
                         android:id="@+id/bt_imagen"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:text="Pega Imagem"
-                        android:onClick="pegarImg"
-                        android:background="@drawable/ic_collections_black"
-                        android:layout_weight="1" />
+                        android:onClick="pegarImg"/>
 
                 </LinearLayout>
 

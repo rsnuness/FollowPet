@@ -11,13 +11,12 @@
     android:background="@android:color/background_light">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_atualizar_vacina"
+        android:id="@+id/toolbar_atualizar_pet"
         android:elevation="8dp"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize"
         android:layout_alignParentLeft="true"
         android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AlertDialog.AppCompat.Light"
-        tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+        app:popupTheme="@style/AlertDialog.AppCompat.Light" />
 </LinearLayout>

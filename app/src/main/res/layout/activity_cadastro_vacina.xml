@@ -18,7 +18,8 @@
         android:minHeight="?attr/actionBarSize"
         android:layout_alignParentLeft="true"
         android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AlertDialog.AppCompat.Light" />
+        app:popupTheme="@style/AlertDialog.AppCompat.Light"
+        tools:ignore="ObsoleteLayoutParam" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -37,6 +38,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_vacina_id"
+                    android:visibility="invisible" />
 
                 <EditText
                     android:layout_width="match_parent"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
@@ -8,12 +9,18 @@
         android:id="@+id/action_nova_vacina"
         android:icon="@drawable/ic_syringe"
         android:title="Nova Vacina"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
 
     <item
         android:id="@+id/action_novo_medicamento"
         android:icon="@drawable/ic_pill"
         android:title="Novo Medicamento"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+
+
+
 
 </menu>

@@ -24,7 +24,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:paddingLeft="20dp">
+        tools:paddingLeft="20dp"
+        android:paddingRight="20dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -36,25 +37,28 @@
                 android:orientation="vertical" >
 
                 <LinearLayout
-                    android:id="@+id/layout_image"
+                    android:id="@+id/Layout_img"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
                         android:id="@+id/img_perfil"
                         android:layout_weight="1"
-                        />
+                        android:background="@color/common_action_bar_splitter" />
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/bt_imagen"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
                         android:text="Pega Imagem"
-                        android:onClick="pegarImg"/>
+                        android:background="@drawable/ic_collections_black"
+                        android:elevation="15dp"
+                        android:layout_gravity="right"
+                        android:onClick="pegaimag"
+                        android:layout_marginRight="50dp"
+                        android:layout_height="match_parent" />
 
                 </LinearLayout>
 
@@ -84,13 +88,22 @@
                         android:textColorHint="@color/dividerColor" />
 
                     <TextView
-                            android:text="Data de Nascimento"
-                            android:layout_width="wrap_content"
-                            android:id="@+id/tv_nascimento"
-                            android:textColor="@color/primaryText"
-                            android:layout_height="wrap_content"
-                            android:textSize="20sp"
-                            android:layout_marginTop="20dp" />
+                        android:text="Data de Nascimento"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tv_nascimento"
+                        android:textColor="@color/primaryText"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/primaryText" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/editText"
+                        android:textColor="@color/primaryText" />
 
                 </LinearLayout>
 

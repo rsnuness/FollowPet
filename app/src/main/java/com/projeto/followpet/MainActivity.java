@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(mToolbar);//iniciar o toolbar
         //funçoes adicionais, deve consulta documentação
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setLogo(R.drawable.ic_inter);// defina o icon de logo para toolbar
+        //getSupportActionBar().setLogo(R.drawable.ic_inter);// defina o icon de logo para toolbar
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         //fim do toolbar
     }

@@ -1,8 +1,10 @@
 package com.projeto.followpet;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 public class AtualizarMedicamentoActivity extends AppCompatActivity {
 
@@ -17,5 +19,17 @@ public class AtualizarMedicamentoActivity extends AppCompatActivity {
         mToolbar.setTitle(R.string.tb_atualizar_medicamento);
         mToolbar.setLogo(R.drawable.ic_inter);
         setSupportActionBar(mToolbar);
+
+        //ativando o botao de voltar
+        mToolbar.setNavigationIcon(R.drawable.ic_keyboard_backspace_white);//definindo a imagem
+        mToolbar.setNavigationContentDescription("Retornar");
+        //funçao do botao
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent(AtualizarMedicamentoActivity.this, PetPerfilActivity.class),1);
+            }
+        });
+
     }
 }

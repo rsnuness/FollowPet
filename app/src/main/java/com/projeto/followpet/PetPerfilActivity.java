@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 /**
  * Created by User on 08/11/2016.
@@ -30,7 +31,17 @@ public class PetPerfilActivity extends AppCompatActivity {
         setSupportActionBar(mToolbar);//iniciar o toolbar
         //funçoes adicionais, deve consulta documentação
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        //getSupportActionBar().setLogo(R.drawable.ic_inter);// defina o icon de logo para toolbar
+        //ativando o botao de voltar
+        mToolbar.setNavigationIcon(R.drawable.ic_keyboard_backspace_white);//definindo a imagem
+        mToolbar.setNavigationContentDescription("Retornar");
+        //funçao do botao
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent(PetPerfilActivity.this, MainActivity.class),1);
+            }
+        });
+
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         //fim do toolbar
     }

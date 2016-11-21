@@ -38,6 +38,18 @@ public class CadastroPetActivity extends AppCompatActivity {
         mToolbar.setTitle(R.string.tb_cadastro_pet);
         //mToolbar.setLogo(R.drawable.ic_inter);
         setSupportActionBar(mToolbar);
+
+        //ativando o botao de voltar
+        mToolbar.setNavigationIcon(R.drawable.ic_keyboard_backspace_white);//definindo a imagem
+        mToolbar.setNavigationContentDescription("Retornar");
+        //funçao do botao
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent(CadastroPetActivity.this, MainActivity.class),1);
+            }
+        });
+
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();

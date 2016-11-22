@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.google.android.gms.appindexing.Action;
@@ -28,6 +29,8 @@ public class CadastroPetActivity extends AppCompatActivity {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,12 +50,16 @@ public class CadastroPetActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivityForResult(new Intent(CadastroPetActivity.this, MainActivity.class),1);
+                finish();
             }
         });
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        final EditText data_nascimento = (android.widget.EditText) findViewById(R.id.etxt_pet_nascimento);
+        data_nascimento.addTextChangedListener(Mask.insert("##/##/####", data_nascimento));
     }
 
     @Override
@@ -63,30 +70,32 @@ public class CadastroPetActivity extends AppCompatActivity {
         return true;
     }
 
-    //@Override
-    // public boolean onOptionsItemSelected(MenuItem item) {
-    // Intent it = null;
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    Intent it = null;
 
-    // switch (item.getItemId()) {
-            /*case R.id.action_settings:
+    switch (item.getItemId()) {
+           /* case R.id.action_settings:
                 // User chose the "Settings" item, show the app settings UI...
-                return true;*/
+                return true; */
 
-    //  case R.id.action_cadastro_pet:
-    // User chose the "Favorite" action, mark the current item
-    // as a favorite...
-    //return true;
+            case R.id.action_salva:
+                //recuperando os campos
+                EditText etxtNome = (EditText) findViewById(R.id.etxt_pet_nome);
+                EditText etxtNascimento = (EditText) findViewById(R.id.etxt_pet_nascimento);
+
+            return true;
 
     //   startActivityForResult(new Intent(this, CadastroPetActivity.class),1
     //    );
 
-    //  default:
-    // If we got here, the user's action was not recognized.
-    // Invoke the superclass to handle it.
-    //    return super.onOptionsItemSelected(item);
+            default:
+            // If we got here, the user's action was not recognized.
+            // Invoke the superclass to handle it.
+            return super.onOptionsItemSelected(item);
 
-    //  }
-    // }
+            }
+    }
 
     //TODO Pegando Imagem
     /*O comando aseguir pega uma imagem no celular para ser usada dentro do app*/

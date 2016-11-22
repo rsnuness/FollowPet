@@ -82,7 +82,7 @@
                         android:hint="Nome"
                         android:singleLine="true"
                         android:ems="10"
-                        android:id="@+id/et_nome"
+                        android:id="@+id/etxt_pet_nome"
                         android:textColor="@color/primaryText"
                         android:layout_weight="1"
                         android:textColorHint="@color/dividerColor" />
@@ -95,6 +95,117 @@
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:layout_marginTop="20dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/etxt_pet_nascimento"
+                        android:textColor="@color/primaryText" />
+
+                    <TextView
+                        android:text="Sexo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pet_sexo"
+                        android:textSize="24sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/primaryText" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:checkedButton="@+id/Sexo">
+
+                        <RadioButton
+                            android:text="Macho"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_macho"
+                            android:textColor="@color/primaryText"
+                            android:layout_weight="0"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Femêa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_femea"
+                            android:textColor="@color/primaryText"
+                            android:layout_weight="0"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:text="Espécie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pet_especie"
+                        android:textSize="24sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/primaryText" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:checkedButton="@+id/rgroup_pet_especie">
+
+                        <RadioButton
+                            android:text="Cães"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_cachorros"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Gatos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_gatos"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Aves"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_aves"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Repteis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_repteis"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:text="Raça"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pet_raca"
+                        android:textSize="24sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/primaryText" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="20dp"
+                        android:singleLine="true"
+                        android:ems="10"
+                        android:id="@+id/etxt_pet_raca"
+                        android:textColor="@color/primaryText"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/dividerColor" />
 
                 </LinearLayout>
 

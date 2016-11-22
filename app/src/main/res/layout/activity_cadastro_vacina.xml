@@ -40,9 +40,11 @@
                 android:orientation="vertical" >
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/txt_vacina_id"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp"
                     android:visibility="invisible" />
 
                 <TextView
@@ -74,6 +76,37 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/primaryText" />
 
+                <TextView
+                    android:text="Data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp"
+                    android:id="@+id/txt_data_vacina01" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/etxt_vacina_data01" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Proxima Vacina"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp"
+                    android:id="@+id/txt_data_vacina02"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/etxt_vacina_02"/>
 
             </LinearLayout>
         </ScrollView>

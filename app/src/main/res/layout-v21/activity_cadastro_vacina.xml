@@ -40,52 +40,73 @@
                 android:orientation="vertical" >
 
                 <TextView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:id="@+id/txt_vacina_id"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp"
                     android:visibility="invisible" />
+
+                <TextView
+                    android:text="Nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_vacina_nome"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/etxt_vacina_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:text="Descrição"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_vacina_descricao"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/etxt_vacina_descricao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryText" />
+
+                <TextView
+                    android:text="Data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryText"
+                    android:textSize="24sp"
+                    android:id="@+id/txt_data_vacina01" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textPersonName"
+                    android:inputType="date"
                     android:ems="10"
-                    android:id="@+id/etxt_vacina_nome"
-                    android:layout_weight="1"
-                    android:hint="Nome"
-                    android:textColor="@color/primaryText" />
+                    android:textColor="@color/primaryText"
+                    android:id="@+id/etxt_vacina_data01" />
 
                 <TextView
-                    android:text="@string/data_da_primeria_dose"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/txt_data_vacina01"
-                    android:layout_weight="1"
+                    android:text="Proxima Vacina"
                     android:textColor="@color/primaryText"
-                    android:textSize="21sp"
-                    android:layout_marginTop="3dp" />
+                    android:textSize="24sp"
+                    android:id="@+id/txt_data_vacina02"/>
 
-                <DatePicker
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/dtP_vacina01"
-                    android:layout_weight="1" />
-
-                <TextView
-                    android:text="Data da Proxima Dose"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/txt_data_vacina02"
-                    android:layout_weight="1"
+                    android:inputType="date"
+                    android:ems="10"
                     android:textColor="@color/primaryText"
-                    android:textSize="21sp"
-                    android:layout_marginTop="3dp" />
-
-                <DatePicker
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/dtP_vacina02"
-                    android:layout_weight="1" />
+                    android:id="@+id/etxt_vacina_02"/>
 
             </LinearLayout>
         </ScrollView>

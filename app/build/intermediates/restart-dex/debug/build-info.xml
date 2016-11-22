@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="6870407604343"
+    token="3585404886174246358"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="446" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="56" />
+    <task
+        name="verifier"
+        duration="40" />
+
+    <artifact
+        location="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="4464532561728"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="6574006628536"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="6801377252887"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="6870407604343"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

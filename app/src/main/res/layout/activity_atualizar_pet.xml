@@ -11,7 +11,7 @@
     android:background="@android:color/background_light">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_atualizar_pet"
+        android:id="@+id/toolbar_cadastro_pet"
         android:elevation="8dp"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"
@@ -19,4 +19,200 @@
         android:layout_alignParentLeft="true"
         android:background="?attr/colorPrimary"
         app:popupTheme="@style/AlertDialog.AppCompat.Light" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/Layout_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/img_perfil"
+                        android:layout_weight="1"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/bt_imagen"
+                        android:layout_width="wrap_content"
+                        android:text="Pega Imagem"
+                        android:background="@drawable/ic_collections_black"
+                        android:elevation="15dp"
+                        android:layout_gravity="right"
+                        android:onClick="pegaimag"
+                        android:layout_marginRight="50dp"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:id="@+id/txt_pet_id"
+                        android:visibility="invisible" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="20dp"
+                        android:hint="Nome"
+                        android:singleLine="true"
+                        android:ems="10"
+                        android:id="@+id/etxt_pet_nome"
+                        android:textColor="@color/primaryText"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/dividerColor" />
+
+                    <TextView
+                        android:text="Data de Nascimento"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tv_nascimento"
+                        android:textColor="@color/primaryText"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginTop="20dp" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/etxt_pet_nascimento"
+                        android:textColor="@color/primaryText" />
+
+                    <TextView
+                        android:text="Sexo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pet_sexo"
+                        android:textSize="24sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/primaryText" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:checkedButton="@+id/Sexo">
+
+                        <RadioButton
+                            android:text="Macho"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_macho"
+                            android:textColor="@color/primaryText"
+                            android:layout_weight="0"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Femêa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_femea"
+                            android:textColor="@color/primaryText"
+                            android:layout_weight="0"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:text="Espécie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pet_especie"
+                        android:textSize="24sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/primaryText" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:checkedButton="@+id/rgroup_pet_especie">
+
+                        <RadioButton
+                            android:text="Cães"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_cachorros"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Gatos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_gatos"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Aves"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_aves"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:text="Repteis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rbtn_pet_repteis"
+                            android:textColor="@color/primaryText"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:text="Raça"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pet_raca"
+                        android:textSize="24sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/primaryText" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="20dp"
+                        android:singleLine="true"
+                        android:ems="10"
+                        android:id="@+id/etxt_pet_raca"
+                        android:textColor="@color/primaryText"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/dividerColor" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
 </LinearLayout>

@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plus.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_plus.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_add_black_24dp.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_add_black_24dp.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_full_open_on_phone.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_collections_black.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_collections_black.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_content_save.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_content_save.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_eyedropper_variant.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_eyedropper_variant.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_inter.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_inter.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_pill.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_pill.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_syringe.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_syringe.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_more_vert_white.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_more_vert_white.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_create_black_24dp.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_create_black_24dp.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_keyboard_backspace_white.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/generated/res/pngs/debug/drawable-mdpi/ic_keyboard_backspace_white.png"
+    }
+]

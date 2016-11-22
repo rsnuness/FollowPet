@@ -1,0 +1,4 @@
+Database=followpet;
+Data Source=br-cdbr-azure-south-b.cloudapp.net;
+User Id=b7021f671d125a;
+Password=54bdbc76;

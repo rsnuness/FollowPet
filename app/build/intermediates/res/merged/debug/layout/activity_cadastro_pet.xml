@@ -154,12 +154,11 @@
                         android:checkedButton="@+id/rgroup_pet_especie">
 
                         <RadioButton
-                            android:text="Cachorros"
+                            android:text="Cães"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/rbtn_pet_cachorros"
                             android:textColor="@color/primaryText"
-                            android:layout_weight="0"
                             android:textSize="18sp" />
 
                         <RadioButton
@@ -168,7 +167,6 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/rbtn_pet_gatos"
                             android:textColor="@color/primaryText"
-                            android:layout_weight="0"
                             android:textSize="18sp" />
 
                         <RadioButton
@@ -177,7 +175,6 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/rbtn_pet_aves"
                             android:textColor="@color/primaryText"
-                            android:layout_weight="0"
                             android:textSize="18sp" />
 
                         <RadioButton
@@ -186,7 +183,6 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/rbtn_pet_repteis"
                             android:textColor="@color/primaryText"
-                            android:layout_weight="0"
                             android:textSize="18sp" />
                     </RadioGroup>
 

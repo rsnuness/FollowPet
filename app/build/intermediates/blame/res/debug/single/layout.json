@@ -4,16 +4,16 @@
         "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_title_item.xml"
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",

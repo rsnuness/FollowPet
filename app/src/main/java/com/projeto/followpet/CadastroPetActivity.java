@@ -1,7 +1,9 @@
 package com.projeto.followpet;
 
+import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -14,6 +16,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RadioButton;
+import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -23,14 +27,10 @@ import com.google.android.gms.common.api.GoogleApiClient;
 public class CadastroPetActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
-    public static final int IMAGEM_INTERNA = 12;//usada para pega um imagem
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+    SQLiteDatabase db;
 
-
+    private String sexo;
+    private  String especie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +54,22 @@ public class CadastroPetActivity extends AppCompatActivity {
             }
         });
 
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        //COMANDO PARA criar o banco de dados
+        db = openOrCreateDatabase("followpet.db", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+
+        //comando para criar tabela
+        String cliente = "CREATE TABLE IF NOT EXISTS  pet (" +
+                "_id integer PRIMARY KEY AUTOINCREMENT," +
+                "nome varchar," +
+                "data_nascimento varchar," +
+                "raca varchar," +
+                "sexo varchar," +
+                "especie varchar," +
+                "vacina_id integer," +
+                "medicamento_id integer" +
+                ");";
+        //execultado ocomando sql salvo na string
+        db.execSQL(cliente);
 
         final EditText data_nascimento = (android.widget.EditText) findViewById(R.id.etxt_pet_nascimento);
         data_nascimento.addTextChangedListener(Mask.insert("##/##/####", data_nascimento));
@@ -83,6 +96,26 @@ public class CadastroPetActivity extends AppCompatActivity {
                 //recuperando os campos
                 EditText etxtNome = (EditText) findViewById(R.id.etxt_pet_nome);
                 EditText etxtNascimento = (EditText) findViewById(R.id.etxt_pet_nascimento);
+                EditText etxtraca = (EditText) findViewById(R.id.etxt_pet_raca);
+
+                //comando sql para cadastras no banco
+                ContentValues ctv = new ContentValues();
+                ctv.put("nome", etxtNome.getText().toString());
+                ctv.put("data_nascimento", etxtNascimento.getText().toString());
+                ctv.put("raca" ,etxtraca.getText().toString());
+                ctv.put("sexo",sexo);
+                ctv.put("especie",especie);
+
+                if(db.insert("pet", "_id", ctv) > 0){
+                    //mesagem de salvamanto de dados
+                    Toast.makeText(getBaseContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
+                    startActivityForResult(new Intent(this, MainActivity.class),1);
+                }
+                else
+                {
+                    Toast.makeText(getBaseContext(), "Erro ao cadastrar!", Toast.LENGTH_LONG).show();
+                    startActivityForResult(new Intent(this, MainActivity.class),1);
+                }
 
             return true;
 
@@ -96,37 +129,51 @@ public class CadastroPetActivity extends AppCompatActivity {
 
             }
     }
+    //TODO RADIOBUTTON SEXO
+    public void onRadioButtonClickedSexo(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
 
-    //TODO Pegando Imagem
-    /*O comando aseguir pega uma imagem no celular para ser usada dentro do app*/
-    public void pegarImg(View view) {
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        intent.setType("image/*");
-        startActivityForResult(intent, IMAGEM_INTERNA);
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
-        if (requestCode == IMAGEM_INTERNA) {
-            if (resultCode == RESULT_OK) {
-                Uri imagemSelecionada = intent.getData();
-
-                String[] colunas = {MediaStore.Images.Media.DATA};
-
-                Cursor cursor = getContentResolver().query(imagemSelecionada, colunas, null, null, null);
-                cursor.moveToFirst();
-
-                int indexColunas = cursor.getColumnIndex(colunas[0]);
-                String pathImg = cursor.getString(indexColunas);
-                cursor.close();
-
-                Bitmap bitmap = BitmapFactory.decodeFile(pathImg);
-                ImageView imageView = (ImageView) findViewById(R.id.img_perfil);
-                imageView.setImageBitmap(bitmap);
-            }
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.rbtn_pet_macho:
+                if (checked)
+                    sexo = "Macho";
+                break;
+            case R.id.rbtn_pet_femea:
+                if (checked)
+                    sexo = "Femea";
+                break;
         }
     }
-    //fim image
+
+    //RadioButton Especie
+    public void onRadioButtonClickedEspecie(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.rbtn_pet_cachorros:
+                if (checked)
+                    especie = "Cachorro";
+                break;
+            case R.id.rbtn_pet_gatos:
+                if (checked)
+                    especie = "Gato";
+                break;
+            case R.id.rbtn_pet_aves:
+                if (checked)
+                    especie = "Ave";
+                break;
+            case R.id.rbtn_pet_repteis:
+                if (checked)
+                    especie = "Reptil";
+                break;
+        }
+    }
+
+
 
 
 }

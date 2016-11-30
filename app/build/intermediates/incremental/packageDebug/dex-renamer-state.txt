@@ -1,7 +1,4 @@
-#Mon Nov 21 21:18:14 BRT 2016
-base.0=/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_933323fa368c2926ae06483069e8db919cb3ddc3
-renamed.1=classes2.dex
+#Wed Nov 30 14:15:23 GFT 2016
+base.0=C\:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a736c6c89cfbd97ec8fe0a13cea3ba41b370e1c/classes.dex
-base.1=/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a736c6c89cfbd97ec8fe0a13cea3ba41b370e1c
-file.0=/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_933323fa368c2926ae06483069e8db919cb3ddc3/classes.dex
+file.0=C\:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

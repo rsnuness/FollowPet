@@ -1,22 +1,42 @@
 [
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/menu/menu_tb_main.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/menu/menu_tb_main.xml"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_novo_medicamento.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_novo_medicamento.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/menu/menu_tb_novopet.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/menu/menu_tb_novopet.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_main.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_main.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/menu/menu_tb_novo_medicamento.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/menu/menu_tb_novo_medicamento.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_novopet.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_novopet.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/menu/menu_tb_pet_perfil.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/menu/menu_tb_pet_perfil.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_pet_perfil.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_pet_perfil.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/menu/menu_tb_novo_vacina.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/menu/menu_tb_novo_vacina.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_novo_medicamento.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_novo_medicamento.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_pet_perfil.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_pet_perfil.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_novopet.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_novopet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_novo_vacina.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_novo_vacina.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_novo_vacina.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_novo_vacina.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tb_main.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\menu\\menu_tb_main.xml"
     }
 ]

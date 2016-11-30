@@ -2,202 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_778437210efb1abaa381b5d015ec239ec9f34276/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="53d2ba1b5f1914825f0d9d9b23187b1882ec15c3">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a736c6c89cfbd97ec8fe0a13cea3ba41b370e1c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_989f76d4c919e53aea3cabfe3ceff737a14fa366/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_7651244fec4ceb611ad39d5a824ef9b978b0799c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_e4e6f43c3cc13940f4ae46ccbab4db71e281ec33/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_d6b8d1d46a257f9ae7fe0811c21a357d37175374/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_85e628d1e61b741f860fecfde15047a53159b858/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_e6c364c3d5a01fe21ce39b38d950186135cb6666/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5025063c4c03baa1b6759432195024dd8e5a3f92">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-25.0.0_e6b78b19d6441d51cce95a918ccbeb313b956b48/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_f5ad61e3100d979e9575f1afc2fea3a1d228ff85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="54b26c4a91a6f833aad416665fe0aa7403581f8d">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_933323fa368c2926ae06483069e8db919cb3ddc3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_e58374a1812f49edffdaf1e1475b13393247755c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_c9d37b7600d33dc215f0641431a901b4287a0259/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2f62f3595b43e8a63e5c6acc8062571c8d7790cb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_5380a05a6c840c21b8ec96d0159f4633bea1bd1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_dee76b4214423149e8e9adc66bf6ced1acfa3c62/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_07a6fa0e49e3ba376494f9ebcd9de880e3456989/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2d48525d1a5af942d8d5c7ef2e55b10e3b5206e6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_539d9a348a43a2f607971c4672551c0ad4b04c37/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_8a11b9a7928d04d59b61dfd2d3fab25d565ba524/classes.dex" />
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_20675a4554dec31dc19590d1d3d6e3dcc8a76c5e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_491a79fc4ca0ed1db7fdf94417fb5cff865ecbbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_e32340e9be50c8392bfbb399108d3a3701fa43db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_1bb8c5f27a256610221137514b82f398391a3b92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_575f13e78dee6908bb081fde0c95587c168c8beb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5025063c4c03baa1b6759432195024dd8e5a3f92">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-gridlayout-v7-25.0.0_48f884d288208adbdde4bb86d9187bca846a4e91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_2ef44d1f3c3d557568d1c5293502c0bee6212221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_d9869709814c4355109b24b7b75f6796c6ee410d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_b2be2833448b4cf0d531b4c133e8362f6b9bd881.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\android_sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_2e0fcba9f565997f736d6708808f31c71cb91f06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fa2240c3bd4cc7da9f6957faa7d5540f5eb9e0bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_fe6180af0ba83488252280863bc378aa99375f8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_91229ff93269426bc32d0f456500cc460832c1e7/classes.dex" />
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_d49209e90aea28684855a40295ab4a127e388cea.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2e7312122117fc5ee82315d294ecf82f17afa1a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_3a46696b8f6801c378f10972a1d884d4dfa502b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c7daffa27622d278d5f54d6dd2060948995c2564.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_81d98079d89f33969ffaa3dc8fa59dafea944fdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_257a2670fa948288e41c73efe9a46e2108c5a0f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c61984b5dfb4b1e1472398ca7bba8573b33ceb21/classes.dex" />
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7ff2bf9f8b180093e703e6316ee5b160386e51f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_d5dd3d73c8e42e60648cb8fa9771043586d08dc2.jar" />
     </item>
 
 </items>

@@ -17,7 +17,6 @@ public class AtualizarMedicamentoActivity extends AppCompatActivity {
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar_cadastro_pet);
         mToolbar.setTitle(R.string.tb_atualizar_medicamento);
-        mToolbar.setLogo(R.drawable.ic_inter);
         setSupportActionBar(mToolbar);
 
         //ativando o botao de voltar

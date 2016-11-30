@@ -18,6 +18,6 @@ public class DbManager {
         banco = new DbFollowpet(context);
     }
 
-    public String inserePet(String nome, String data_nascimento)
+
 
 }

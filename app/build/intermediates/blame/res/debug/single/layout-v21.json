@@ -1,34 +1,66 @@
 [
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_atualizar_pet.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_atualizar_pet.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_atualizar_pet.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_atualizar_pet.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_atualizar_vacina.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_atualizar_vacina.xml"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_main.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_cadastro_pet.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_cadastro_pet.xml"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_cadastro_medicamento.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_cadastro_medicamento.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_perfil_pet.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_perfil_pet.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_cadastro_vacina.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_cadastro_vacina.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_main.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_main.xml"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_cadastro_vacina.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_cadastro_vacina.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_cadastro_vacina.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_cadastro_vacina.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_cadastro_pet.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_cadastro_pet.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_atualizar_medicamento.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_atualizar_medicamento.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_perfil_pet.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_perfil_pet.xml"
     },
     {
-        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/layout-v21/activity_cadastro_medicamento.xml",
-        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/layout-v21/activity_cadastro_medicamento.xml"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_atualizar_pet.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_atualizar_pet.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_perfil_pet.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_perfil_pet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_atualizar_vacina.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_atualizar_vacina.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_atualizar_vacina.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_atualizar_vacina.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_atualizar_medicamento.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_atualizar_medicamento.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_cadastro_pet.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_cadastro_pet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_main.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_cadastro_medicamento.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_cadastro_medicamento.xml"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_atualizar_medicamento.xml",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\layout-v21\\activity_atualizar_medicamento.xml"
     }
 ]

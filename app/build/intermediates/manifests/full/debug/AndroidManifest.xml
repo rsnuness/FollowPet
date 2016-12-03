@@ -39,6 +39,9 @@
             android:name="com.projeto.followpet.AtualizarMedicamentoActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.projeto.followpet.PetPerfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.projeto.followpet.AtualizarVacinaActivity"
             android:screenOrientation="portrait" />
         <!--

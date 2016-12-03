@@ -19,6 +19,21 @@
         app:showAsAction="ifRoom"
         tools:ignore="HardcodedText" />
 
+    <item
+        android:id="@+id/action_atualizar_pet"
+        android:icon="@drawable/ic_eyedropper_variant"
+        android:title="Atualizar Pet"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/action_excluir_pet"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Excluir Pet"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+
 
 
 

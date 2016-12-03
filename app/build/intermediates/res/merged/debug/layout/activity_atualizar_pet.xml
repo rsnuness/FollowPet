@@ -181,7 +181,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPersonName"
-                        android:layout_marginTop="20dp"
                         android:singleLine="true"
                         android:ems="10"
                         android:id="@+id/etxt_pet_raca"

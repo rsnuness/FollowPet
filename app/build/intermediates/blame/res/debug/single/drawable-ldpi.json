@@ -4,6 +4,10 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_plus.png"
     },
     {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_add_black_24dp.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_syringe.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_syringe.png"
     },
@@ -16,83 +20,71 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_eyedropper_variant.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_eyedropper_variant.png"
-    },
-    {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_inter.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_inter.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_add_black_24dp.png",
-        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_black_24dp.png"
-    },
-    {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_more_vert_white.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_more_vert_white.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_syringe.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_syringe.png"
     },
     {
         "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_plus.png",
         "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_plus.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_create_black_24dp.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_create_black_24dp.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_eyedropper_variant.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_eyedropper_variant.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_content_save.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_content_save.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_collections_black.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_collections_black.png"
-    },
-    {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_syringe.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_syringe.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_inter.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_inter.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_keyboard_backspace_white.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_keyboard_backspace_white.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_pill.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pill.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_keyboard_backspace_white.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_keyboard_backspace_white.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_content_save.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_content_save.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_collections_black.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_collections_black.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_more_vert_white.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_more_vert_white.png"
     },
     {
-        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_create_black_24dp.png",
-        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_create_black_24dp.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_more_vert_white.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_more_vert_white.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_add_black_24dp.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_black_24dp.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_inter.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_inter.png"
+    },
+    {
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_content_save.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_content_save.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_pill.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pill.png"
     },
     {
-        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_collections_black.png",
-        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_collections_black.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_create_black_24dp.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_create_black_24dp.png"
     },
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_pill.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pill.png"
+        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_keyboard_backspace_white.png",
+        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_keyboard_backspace_white.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_collections_black.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_collections_black.png"
     }
 ]

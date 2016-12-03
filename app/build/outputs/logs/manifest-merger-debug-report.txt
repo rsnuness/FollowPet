@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidMan
 		INJECTED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:5:5-35:19
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:5:5-38:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
@@ -54,48 +54,54 @@ ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:15:27-74
 activity#com.projeto.followpet.CadastroPetActivity
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:18:9-94
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:19:9-94
 	android:screenOrientation
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:18:55-91
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:19:55-91
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:18:19-54
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:19:19-54
 activity#com.projeto.followpet.CadastroVacinaActivity
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:20:9-97
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:21:9-97
 	android:screenOrientation
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:20:58-94
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:21:58-94
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:20:19-57
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:21:19-57
 activity#com.projeto.followpet.CadastroMedicamentoActivity
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:22:9-102
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:23:9-102
 	android:screenOrientation
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:22:63-99
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:23:63-99
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:22:19-62
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:23:19-62
 activity#com.projeto.followpet.AtualizarPetActivity
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:24:9-95
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:25:9-95
 	android:screenOrientation
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:24:56-92
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:25:56-92
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:24:19-55
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:25:19-55
 activity#com.projeto.followpet.AtualizarMedicamentoActivity
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:26:9-103
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:27:9-103
 	android:screenOrientation
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:26:64-100
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:27:64-100
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:26:19-63
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:27:19-63
+activity#com.projeto.followpet.PetPerfilActivity
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:29:9-92
+	android:screenOrientation
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:29:53-89
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:29:19-52
 activity#com.projeto.followpet.AtualizarVacinaActivity
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:28:9-98
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:31:9-98
 	android:screenOrientation
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:28:59-95
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:31:59-95
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:28:19-58
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:31:19-58
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:30:9-32:69
+ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:33:9-35:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:35:13-66
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml:34:13-58
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\FollowPet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\User\AndroidStudioProjects\FollowPet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78

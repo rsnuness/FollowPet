@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".CadastroPetActivity" android:screenOrientation="portrait" />
 
         <activity android:name=".CadastroVacinaActivity" android:screenOrientation="portrait" />
@@ -24,6 +25,8 @@
         <activity android:name=".AtualizarPetActivity" android:screenOrientation="portrait" />
 
         <activity android:name=".AtualizarMedicamentoActivity" android:screenOrientation="portrait" />
+
+        <activity android:name=".PetPerfilActivity" android:screenOrientation="portrait" />
 
         <activity android:name=".AtualizarVacinaActivity" android:screenOrientation="portrait" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->

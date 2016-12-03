@@ -1,7 +1,12 @@
 package com.projeto.followpet;
 
+import android.app.Dialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -9,7 +14,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 /**
@@ -77,6 +85,10 @@ public class PetPerfilActivity extends AppCompatActivity {
         perfil_sexo.setText(it.getStringExtra("sexo"));
         perfil_especie.setText(it.getStringExtra("especie"));
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
     }
     //TODO Menu de incones laterais do main
     /*os codigos ai em baixo sao ultilizado para setar os icon de funçao
@@ -95,17 +107,27 @@ public class PetPerfilActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.action_nova_vacina:
+
                 startActivityForResult(new Intent(this, CadastroVacinaActivity.class),1
                 );
+
                 return true;
 
             case R.id.action_novo_medicamento:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
-                //return true;
 
                 startActivityForResult(new Intent(this, CadastroMedicamentoActivity.class),1
                 );
+
+                return true;
+
+            case R.id.action_atualizar_pet:
+
+                return true;
+
+            case R.id.action_excluir_pet:
+
+
+                return true;
 
             default:
                 // If we got here, the user's action was not recognized.
@@ -115,6 +137,50 @@ public class PetPerfilActivity extends AppCompatActivity {
         }
     }
     //fim Menu de incones laterais do main
+
+
+
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "EditarCliente Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.projeto.followpet/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "EditarCliente Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.projeto.followpet/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
+    }
 
 
 }

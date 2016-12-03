@@ -1,18 +1,29 @@
 package com.projeto.followpet;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import com.google.android.gms.common.api.GoogleApiClient;
 
 /**
  * Created by User on 08/11/2016.
  */
 
 public class PetPerfilActivity extends AppCompatActivity {
+
+    private SQLiteDatabase db;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     private Toolbar mToolbar;//Variavel necessaria para usar o toolbar
 
@@ -44,6 +55,28 @@ public class PetPerfilActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         //fim do toolbar
+
+        //lincando o banco
+        db = openOrCreateDatabase("followpet.db", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+        /**/
+
+        //chamando o Intent
+        final Intent it = getIntent();
+        /**/
+        final TextView perfil_id = (TextView) findViewById(R.id.perfil_id);
+        final TextView perfil_nome = (TextView) findViewById(R.id.perfil_nome);
+        final TextView perfil_nascimento = (TextView) findViewById(R.id.perfil_nascimento);
+        final TextView perfil_raca = (TextView) findViewById(R.id.perfil_raca);
+        final TextView perfil_sexo = (TextView) findViewById(R.id.perfil_sexo);
+        final TextView perfil_especie = (TextView) findViewById(R.id.perfil_especie);
+
+        perfil_id.setText(it.getStringExtra("_id"));
+        perfil_nome.setText(it.getStringExtra("nome"));
+        perfil_nascimento.setText(it.getStringExtra("data_nascimento"));
+        perfil_raca.setText(it.getStringExtra("raca"));
+        perfil_sexo.setText(it.getStringExtra("sexo"));
+        perfil_especie.setText(it.getStringExtra("especie"));
+
     }
     //TODO Menu de incones laterais do main
     /*os codigos ai em baixo sao ultilizado para setar os icon de funçao
@@ -82,4 +115,6 @@ public class PetPerfilActivity extends AppCompatActivity {
         }
     }
     //fim Menu de incones laterais do main
+
+
 }

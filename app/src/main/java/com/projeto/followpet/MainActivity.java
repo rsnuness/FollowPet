@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         //preencher o list
-        Cursor cursor = db.query("pet", new String[]{"_id", "nome", "data_nascimento", "raca", "sexo", "especie"}, null, null, null, null, null);
+        Cursor cursor = db.query("pet", new String[]{"_id", "nome", "data_nascimento", "raca", "sexo", "especie", }, null, null, null, null, null);
 
         String[] campos = {"nome", "especie"};
         int[] ids = {R.id.model_nome, R.id.model_especie};

@@ -22,15 +22,17 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginLeft="5dp"
         android:text="@string/nome"
-        android:id="@+id/model_nome"
-        android:textColor="@android:color/black" />
+        android:id="@+id/model_perfil_nome"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/especie"
+        android:text="Data"
         android:layout_marginLeft="5dp"
-        android:id="@+id/model_especie"
-        android:textColor="@android:color/black" />
+        android:id="@+id/model_perfil_medicamento"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
 </LinearLayout>

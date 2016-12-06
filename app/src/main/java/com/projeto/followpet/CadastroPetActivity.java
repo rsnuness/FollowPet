@@ -2,27 +2,16 @@ package com.projeto.followpet;
 
 import android.content.ContentValues;
 import android.content.Intent;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.Toast;
-
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
-import com.google.android.gms.common.api.GoogleApiClient;
 
 public class CadastroPetActivity extends AppCompatActivity {
 
@@ -78,7 +67,7 @@ public class CadastroPetActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.menu_tb_novopet, menu);
+        getMenuInflater().inflate(R.menu.menu_tb_novo_pet, menu);
 
         return true;
     }
@@ -109,12 +98,12 @@ public class CadastroPetActivity extends AppCompatActivity {
                 if(db.insert("pet", "_id", ctv) > 0){
                     //mesagem de salvamanto de dados
                     Toast.makeText(getBaseContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
-                    startActivityForResult(new Intent(this, MainActivity.class),1);
+                    startActivityForResult(new Intent(this, PetPerfilActivity.class),1);
                 }
                 else
                 {
                     Toast.makeText(getBaseContext(), "Erro ao cadastrar!", Toast.LENGTH_LONG).show();
-                    startActivityForResult(new Intent(this, MainActivity.class),1);
+                    startActivityForResult(new Intent(this, PetPerfilActivity.class),1);
                 }
 
             return true;

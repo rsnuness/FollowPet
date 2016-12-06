@@ -36,32 +36,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
 
-                <LinearLayout
-                    android:id="@+id/Layout_img"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:id="@+id/img_perfil"
-                        android:layout_weight="1"
-                        />
-
-                    <ImageButton
-                        android:id="@+id/bt_imagen"
-                        android:layout_width="wrap_content"
-                        android:text="Pega Imagem"
-                        android:background="@drawable/ic_collections_black"
-                        android:elevation="15dp"
-                        android:layout_gravity="right"
-                        android:onClick="pegaimag"
-                        android:layout_marginRight="50dp"
-                        android:layout_height="match_parent" />
-
-                </LinearLayout>
-
 
                 <LinearLayout
                     android:orientation="vertical"

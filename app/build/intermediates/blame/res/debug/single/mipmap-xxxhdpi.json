@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\home\\eduardo\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\User\\AndroidStudioProjects\\FollowPet\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/home/eduardo/AndroidStudioProjects/FollowPet/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/eduardo/AndroidStudioProjects/FollowPet/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

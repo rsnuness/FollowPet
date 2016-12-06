@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/background_light"
@@ -13,8 +14,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginLeft="5dp"
         android:text="@string/id"
-        android:id="@+id/model_id"
-        android:visibility="invisible" />
+        android:id="@+id/model_pet_id"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:layout_width="match_parent"
@@ -22,8 +24,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginLeft="5dp"
         android:text="@string/nome"
-        android:id="@+id/model_nome"
-        android:textColor="@android:color/black" />
+        android:id="@+id/model_pet_nome"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:layout_width="match_parent"
@@ -31,6 +34,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/especie"
         android:layout_marginLeft="5dp"
-        android:id="@+id/model_especie"
-        android:textColor="@android:color/black" />
+        android:id="@+id/model_pet_raca"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlHardcoded" />
 </LinearLayout>

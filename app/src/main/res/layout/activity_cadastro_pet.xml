@@ -166,14 +166,13 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_pet_raca"
                         android:textSize="24sp"
-                        android:layout_marginTop="20dp"
-                        android:textColor="@color/primaryText" />
+                        android:textColor="@color/primaryText"
+                        android:layout_marginTop="20dp" />
 
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPersonName"
-                        android:layout_marginTop="20dp"
                         android:singleLine="true"
                         android:ems="10"
                         android:id="@+id/etxt_pet_raca"

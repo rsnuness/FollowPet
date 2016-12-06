@@ -14,6 +14,10 @@
     <string name="especie">Especie</string>
     <string name="nome">Nome</string>
     <string name="id">id</string>
+    <string name="action_cadastro_medicamento">Cadastro de Medicamento</string>
+    <string name="action_cadastro_proprietario">Cadastro de Proprietario</string>
+    <string name="action_cadastro_vacina">Cadastro de Vacina</string>
+    <string name="tb_atualizar_proprietario">Atualuzar Proprietario</string>
     <!-- -->
 
 </resources>

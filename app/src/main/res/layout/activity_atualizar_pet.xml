@@ -36,24 +36,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
 
-                <LinearLayout
-                    android:id="@+id/Layout_img"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
 
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <TextView
+                    <EditText
                         android:layout_width="10dp"
                         android:layout_height="10dp"
-                        android:id="@+id/txt_pet_id"
+                        android:id="@+id/etxt_pet_id"
                         android:visibility="invisible" />
 
                     <EditText

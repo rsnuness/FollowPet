@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;
@@ -13,6 +14,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,12 +30,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 public class PetPerfilActivity extends AppCompatActivity {
 
-    private SQLiteDatabase db;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+    private SQLiteDatabase db = null;
+    private SimpleCursorAdapter adt = null;
+
 
     private Toolbar mToolbar;//Variavel necessaria para usar o toolbar
 
@@ -58,6 +59,7 @@ public class PetPerfilActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivityForResult(new Intent(PetPerfilActivity.this, MainActivity.class),1);
+                finish();
             }
         });
 
@@ -66,28 +68,17 @@ public class PetPerfilActivity extends AppCompatActivity {
 
         //lincando o banco
         db = openOrCreateDatabase("followpet.db", SQLiteDatabase.CREATE_IF_NECESSARY, null);
-        /**/
-
-        //chamando o Intent
-        final Intent it = getIntent();
-        /**/
-        final TextView perfil_id = (TextView) findViewById(R.id.perfil_id);
-        final TextView perfil_nome = (TextView) findViewById(R.id.perfil_nome);
-        final TextView perfil_nascimento = (TextView) findViewById(R.id.perfil_nascimento);
-        final TextView perfil_raca = (TextView) findViewById(R.id.perfil_raca);
-        final TextView perfil_sexo = (TextView) findViewById(R.id.perfil_sexo);
-        final TextView perfil_especie = (TextView) findViewById(R.id.perfil_especie);
-
-        perfil_id.setText(it.getStringExtra("_id"));
-        perfil_nome.setText(it.getStringExtra("nome"));
-        perfil_nascimento.setText(it.getStringExtra("data_nascimento"));
-        perfil_raca.setText(it.getStringExtra("raca"));
-        perfil_sexo.setText(it.getStringExtra("sexo"));
-        perfil_especie.setText(it.getStringExtra("especie"));
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        //comando para criar tabela
+        String cliente = "REATE TABLE IF NOT EXISTS pet (" +
+        "_id integer PRIMARY KEY AUTOINCREMENT," +
+                "nome varchar," +
+                "data_nascimento varchar," +
+                "raca varchar," +
+                "especie vachar," +
+                "sexo varchar," +
+                ");";
+        //execultado ocomando sql salvo na string
+        db.execSQL(cliente);
 
     }
     //TODO Menu de incones laterais do main
@@ -96,7 +87,7 @@ public class PetPerfilActivity extends AppCompatActivity {
     @Override
     public  boolean onCreateOptionsMenu(Menu menu){
 
-        getMenuInflater().inflate(R.menu.menu_tb_pet_perfil, menu);// inicia os icon no toolbar
+        getMenuInflater().inflate(R.menu.menu_tb_pet, menu);// inicia os icon no toolbar
 
         return true;
     }
@@ -106,26 +97,10 @@ public class PetPerfilActivity extends AppCompatActivity {
         Intent it = null;
 
         switch (item.getItemId()) {
-            case R.id.action_nova_vacina:
+            case R.id.action_cadastro_pet:
 
-                startActivityForResult(new Intent(this, CadastroVacinaActivity.class),1
-                );
-
-                return true;
-
-            case R.id.action_novo_medicamento:
-
-                startActivityForResult(new Intent(this, CadastroMedicamentoActivity.class),1
-                );
-
-                return true;
-
-            case R.id.action_atualizar_pet:
-
-                return true;
-
-            case R.id.action_excluir_pet:
-
+                startActivityForResult(new Intent(this, CadastroPetActivity.class),1);
+                finish();
 
                 return true;
 
@@ -135,6 +110,40 @@ public class PetPerfilActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
 
         }
+
+        @Override
+        public void onResume(){
+            super.onResume();
+
+            //preencher o list
+            Cursor cursor = db.query("pet", new String[]{"_id", "nome", "data_nascimento","sexo", "especie", "raca" }, null, null, null, null, null);
+
+            String[] campos = {"nome","raca"};
+            int[] ids = {R.id.model_pet_nome, R.id.model_pet_raca};
+
+            adt = new SimpleCursorAdapter(getBaseContext(), R.layout.model_pet, cursor, campos, ids);
+            ListView ltwdados = (ListView)findViewById(R.id.lv_pet);
+
+            ltwdados.setAdapter(adt);
+
+            ltwdados.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Cursor retornoCursor = (Cursor) adt.getItem(position);
+                    Intent it = new Intent(getBaseContext(), AtualizarPetActivity.class);
+                    it.putExtra("_id", retornoCursor.getString(retornoCursor.getColumnIndex("_id")));
+                    it.putExtra("nome", retornoCursor.getString(retornoCursor.getColumnIndex("nome")));
+                    it.putExtra("data_nascimento", retornoCursor.getString(retornoCursor.getColumnIndex("data_nascimento")));
+                    it.putExtra("sexo", retornoCursor.getString(retornoCursor.getColumnIndex("sexo")));
+                    it.putExtra("especie", retornoCursor.getString(retornoCursor.getColumnIndex("especie")));
+                    it.putExtra("raca", retornoCursor.getString(retornoCursor.getColumnIndex("raca")));
+                    startActivity(it);
+                }
+            });
+        /**/
+
+        }
+
     }
     //fim Menu de incones laterais do main
 
@@ -142,45 +151,6 @@ public class PetPerfilActivity extends AppCompatActivity {
 
 
 
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "EditarCliente Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://com.projeto.followpet/http/host/path")
-        );
-        AppIndex.AppIndexApi.start(client, viewAction);
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "EditarCliente Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://com.projeto.followpet/http/host/path")
-        );
-        AppIndex.AppIndexApi.end(client, viewAction);
-        client.disconnect();
-    }
 
 
 }

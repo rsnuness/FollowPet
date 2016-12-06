@@ -5,9 +5,16 @@
 
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
-        android:id="@+id/action_salva"
+        android:id="@+id/action_salva_vacina"
         android:icon="@drawable/ic_content_save"
         android:title="@string/action_salva"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_salva_vacina"
+        android:icon="@drawable/ic_eyedropper_variant"
+        android:title="@string/action_salva"
+        app:showAsAction="ifRoom"/>
+
 
 </menu>
